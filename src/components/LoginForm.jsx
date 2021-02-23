@@ -28,6 +28,13 @@ const LoginForm = () => {
 
     return ( 
         <div className='wrapper'>
+            <div 
+                className='form'
+                style={{ 
+                    backgroundImage: `url:(images/login.png)`
+                }}
+            > 
+            </div>
             <div className='form'>
                 <h1 className='title'>Your chat application!</h1>
                 <form onSubmit={handleSubmit}>
