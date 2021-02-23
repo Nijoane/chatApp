@@ -6,16 +6,16 @@
 }
 
 .ce-chat-list {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: #F8F3E6 !important;
 }
 
 .ce-chats-container {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: #F8F3E6 !important;
 }
 
 .ce-active-chat-card {
-  background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
+  background-color: #FBDEA2 !important;
+  border: 4px solid #FBDEA2 !important;
   border-radius: 0px !important;
 }
 
@@ -29,12 +29,13 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid black !important;
+  color: #EFAA52;
 }
 
 .ce-primary-button {
   border-radius: 6px !important;
-  background-color: #7554a0 !important;
+  background-color: #EFAA52 !important;
   position: relative;
   bottom: 1px;
 }
@@ -45,17 +46,17 @@
 }
 
 .ce-settings {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: #F8F3E6 !important;
 }
 
 .ce-autocomplete-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid black !important;
 }
 
 .ce-autocomplete-options {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid black !important;
   background-color: white !important;
 }
 
@@ -73,7 +74,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(240, 240, 240);
+  background-color: #F8F3E6;
 }
 
 .chat-title-container {
@@ -83,13 +84,13 @@
 }
 
 .chat-title {
-  color: #7554a0;
+  color: #EFAA52;
   font-weight: 800;
   font-size: 24px;
 }
 
 .chat-subtitle {
-  color: #7554a0;
+  color: black;
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
@@ -157,13 +158,13 @@
   bottom: 0px;
   width: calc(100% - 36px);
   padding: 18px;
-  background-color: rgb(240, 240, 240);
+  background-color: #F8F3E6;
 }
 
 .message-form {
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid #3b2a50;
+  border: 1px solid black;
   background-color: white;
 }
 
@@ -174,17 +175,18 @@
   border: 1px solid white;
   padding: 0px 18px;
   outline: none;
+  color: #EFAA52;
   font-size: 15px;
 }
 
 .image-button {
   cursor: pointer;
-  padding: 0px 12px;
+  padding-left: px;
   height: 100%;
 }
 
 .send-button {
-  height: 42px;
+  height: 50px;
   background-color: white;
   border: 1px solid white;
   padding: 0px 18px;
@@ -215,9 +217,8 @@
 
 .wrapper {
   height: 100vh;
-    width: 100%;
-  background: rgb(117,84,160);
-  background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+  width: 100%;
+  background: #FBDEA2;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,10 +227,10 @@
 .input {
   color: #333;
   font-size: 1.2rem;
-    margin: 0 auto;
-  padding: 1.5rem 2rem;
+  margin: 0 auto;
+  padding: 1.0rem;
   border-radius: 0.2rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #F8F3E6;
   border: none;
   width: 90%;
   display: block;
@@ -245,21 +246,21 @@
 
 .title {
   text-align: center;
-  color: white;
+  color: black;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;;
+  font-size: 2.0rem;;
 }
 
 .button {
   border-radius: 4px;
   border: none;
-  background-color: white;
+  background-color: #EFAA52;
   color: black;
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 15px;
   width: 200px;
   transition: all 0.4s;
   cursor: pointer;
